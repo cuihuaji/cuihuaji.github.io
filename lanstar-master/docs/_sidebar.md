@@ -1,8 +1,0 @@
-* [首页](/)
-* [起步](start.md)
-* [导航](icon.md)
-* [更新记录](history.md)
-* [友链设置](links.md)
-* [幻灯片设置](slide.md)
-* [侧边栏设置](aside.md)
-* [音乐播放器设置](music.md)
