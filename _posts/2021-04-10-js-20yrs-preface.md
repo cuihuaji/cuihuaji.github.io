@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "我的高中"
+title:        "我的高中生活"
 author:       "莱戈拉斯"
 header-style: text
 catalog:      true
