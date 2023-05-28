@@ -1,11 +1,11 @@
 # Site settings
-title: Hux Blog
-SEOTitle: 黄玄的博客 | Hux Blog
+title: Legolas  Blog
+SEOTitle: 莱戈拉斯的博客 | Legolas Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界 | 要做一个有 swag 的程序员"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, React, React Native, 前端, 设计"
-url: "https://huangxuan.me" # your host, for absolute URL
+email: 1006079782@qq.com
+description: "这里是 @莱戈拉斯 的个人博客，与你一起发现更大的世界 | 要做一个有 swag 的程序员"
+keyword: "zc,@莱戈拉斯, legolas, 鬼栈, ..., @..., 莱戈拉斯的博客, legolas Blog, 博客, 个人网站, 互联网, Web, JavaScript, React, React Native, 前端, 设计"
+url: "https://cuihuaji.github.io/" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,11 +13,11 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username: huxpro
-zhihu_username: huxpro
-github_username: huxpro
-twitter_username: huxpro
-#facebook_username:  huxpro
+weibo_username: ...
+zhihu_username: ...
+github_username: ...
+twitter_username: ...
+#facebook_username:  ...
 #linkedin_username:  firstname-lastname-idxxxx
 
 # Build settings
@@ -59,7 +59,7 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: hux
+disqus_username: Legolas 
 
 # Netease settings
 netease_comment: false
@@ -70,7 +70,7 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_domain: https://cuihuaji.github.io/
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
