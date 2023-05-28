@@ -75,8 +75,8 @@ ga_domain: https://cuihuaji.github.io/
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "要做一个有 swag 的程序员 <br> React Team @ Meta"
-sidebar-avatar: cuihuaji.github.io # use absolute URL, seeing it's used in both `/` and `/about/`
-sidebar-avatar:  # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar-hux.jpg  # use absolute URL, seeing it's used in both `/` and `/about/`
+
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
