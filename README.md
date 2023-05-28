@@ -1,147 +1,63 @@
-# Bay
+[Hux Blog](https://huangxuan.me)
+================================
 
-[![Version](https://img.shields.io/gem/v/bay_jekyll_theme)](https://rubygems.org/gems/bay_jekyll_theme)
-[![Downloads](https://img.shields.io/gem/dt/bay_jekyll_theme)](https://rubygems.org/gems/bay_jekyll_theme)
+> I never expect this becomes popular.
 
-Bay is a simple theme for Jekyll. [[view live]](https://eliottvincent.github.io/bay)
-
-Inspired by [dangrover.com](http://dangrover.com/). Current theme used at [eliottvincent.com](http://eliottvincent.com/).
-
-![](/screenshot.png)
-
-### Installation
+![](http://huangxuan.me/img/blog-desktop.jpg)
 
 
-The easiest solution is to [fork this repo](https://github.com/eliottvincent/bay/fork).
-If you want to start from a clean website, follow the steps bellow:
+[User Manual 👉](_doc/Manual.md)
+--------------------------------------------------
 
-Create a new Jekyll website:
-```
-jekyll new mysite
-```
+### Getting Started
 
-Open `Gemfile` and replace the line:
-```
-gem "minima"
-```
-with:
-```
-gem "bay_jekyll_theme"
-```
+1. You will need [Ruby](https://www.ruby-lang.org/en/) and [Bundler](https://bundler.io/) to use [Jekyll](https://jekyllrb.com/). Following [Using Jekyll with Bundler](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/) to fullfill the enviromental requirement.
 
-Open `_config.yml` and replace the line:
-```
-theme: minima
-```
-with:
-```
-theme: bay_jekyll_theme
-```
-or, for GitHub Pages:
-```
-remote_theme: eliottvincent/bay
-```
-
-Finally, install the dependencies:
-```
-bundle install
-```
-
-and build the website!
-```
-jekyll serve
-```
-
-
-The website will look somewhat empty at first. That's normal. Follow the next instructions to complete the header and footer components, and the home and blog pages.
-
-### Header
-Open the `_config.yml` file and add the following:
-```yml
-header:
-  pages:
-    - name: Home
-      slug: /     # <-- index.md
-    - name: Blog  # <-- blog.md
-    - name: Whatever  # <-- whatever.md
-```
-Re-run `jekyll serve` to see the header updated.
-
-### Footer
-Open the `_config.yml` file and add the following:
-```yml
-footer:
-  show_powered_by: true
-  contact:
-    - name: Email
-      value: yourmail@domain.com
-      link: mailto:yourmail@domain.com
-    - name: WeChat
-      value: YourWeChatUsername
-      link: "#"
-  follow:
-    - name: Twitter
-      link: http://twitter.com/YourTwitterUsername
-      username: "@YourTwitterUsername"
-    - name: Facebook
-      link: http://facebook.com/YourFacebookUsername
-    - name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
-    - name: GitHub
-      link: http://github.com/YourGitHubUsername
-    - name: Dribbble
-      link: https://dribbble.com/YourDribbbleUsername
-    - name: Weibo
-      link: http://weibo.com/u/YourWeiboUsername
-    - name: RSS
-      link: /feed.xml
-```
-Re-run `jekyll serve` to see the footer updated.
-
-### Home page
-Create (or edit) the `index.markdown` file and add the following:
-```yml
----
-layout: home
-profile_picture:
-  src: /assets/img/profile-pic.jpg
-  alt: website picture
----
-
-<p>
-  Welcome to mysite!
-</p>
-```
-
-### Blog page
-Create `blog.markdown` file and add the following:
-```yml
----
-layout: blog
-title: Blog
-slug: /blog
----
-
-This is an example of a "Blog" page, displaying a list of posts.
-<br />
-```
-
-
-Your website is ready!
-
-
-### Development
-
-#### Run development instance (with hot-reload)
-```sh
-bundle exec jekyll serve
-```
-
-#### Build and publish the gem
-```sh
-gem build bay_jekyll_theme.gemspec
-```
+2. Installed dependencies in the `Gemfile`:
 
 ```sh
-gem push bay_jekyll_theme-1.x.x.gem
+$ bundle install 
 ```
+
+3. Serve the website (`localhost:4000` by default):
+
+```sh
+$ bundle exec jekyll serve  # alternatively, npm start
+```
+
+### Development (Build From Source)
+
+To modify the theme, you will need [Grunt](https://gruntjs.com/). There are numbers of tasks you can find in the `Gruntfile.js`, includes minifing JavaScript, compiling `.less` to `.css`, adding banners to keep the Apache 2.0 license intact, watching for changes, etc. 
+
+Yes, they were inherited and are extremely old-fashioned. There is no modularization and transpilation, etc.
+
+Critical Jekyll-related code are located in `_include/` and `_layouts/`. Most of them are [Liquid](https://github.com/Shopify/liquid/wiki) templates.
+
+This theme uses the default code syntax highlighter of jekyll, [Rouge](http://rouge.jneen.net/), which is compatible with Pygments theme so just pick any pygments theme css (e.g. from [here](http://jwarby.github.io/jekyll-pygments-themes/languages/javascript.html) and replace the content of `highlight.less`.
+
+
+### Interesting to know more? Checkout the [full user manual](_doc/Manual.md)!
+
+
+Other Resources
+---------------
+
+Ports
+- [**Hexo**](https://github.com/Kaijun/hexo-theme-huxblog) by @kaijun
+- [**React-SSR**](https://github.com/LucasIcarus/huxpro.github.io/tree/ssr) by @LucasIcarus
+
+[Starter/Boilerplate](https://github.com/huxpro/huxblog-boilerplate)
+- Out of date. Helps wanted for updating it on par with the main repo
+
+Translation
+- [🇨🇳  中文文档（有点过时）](https://github.com/Huxpro/huxpro.github.io/blob/master/_doc/README.zh.md)
+
+
+License
+-------
+
+Apache License 2.0.
+Copyright (c) 2015-present Huxpro
+
+Hux Blog is derived from [Clean Blog Jekyll Theme (MIT License)](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/)
+Copyright (c) 2013-2016 Blackrock Digital LLC.
