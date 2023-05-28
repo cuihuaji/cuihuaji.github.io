@@ -3,4 +3,4 @@ Hey，我是莱戈拉斯，一个热爱游戏，计算机科学还有艺术的�
 ##### 我认为有趣的
 
 Artstation（a站，有墙） https://www.artstation.com/
-阮一峰的网络日志（科技爱好者周刊）https://ruanyifeng.com/blog/
+<p>阮一峰的网络日志（科技爱好者周刊）https://ruanyifeng.com/blog/
