@@ -44,3 +44,17 @@ description: "「离开世界之前 一切都是过程」"
     {% endif %}
 </ul>
 {% endif %}
+
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>var gitalk = new Gitalk({
+    clientID: 'f4d23eff8ddfc54be747',
+    clientSecret: 'ab2b0dd5e62655d614acc668e3a6b637e1e08ae1',
+    repo: 'cuihuaji.github.io',
+    owner: 'GitHub repo owner',
+    admin:  ['cuihuaji'],
+    id: location.pathname,      // Ensure uniqueness and len
+    distractionFreeMode: false  // Facebook-like distraction
+})
+gitalk.render('gitalk-container')
+
