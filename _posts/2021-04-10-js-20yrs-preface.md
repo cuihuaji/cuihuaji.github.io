@@ -2,8 +2,8 @@
 layout:       post
 title:        "看我看我"
 author:       "莱戈拉斯"
-header-img: "img/post-bg-me-2022.jpg"
-header-mask: 0.5
+header-img: "img/post-bg-infinity.jpg"
+header-mask: 0.2
 header-style: text
 date:         2023-06-11 12:00:00
 catalog:      true
